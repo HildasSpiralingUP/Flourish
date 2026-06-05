@@ -1,0 +1,19 @@
+{
+  "name": "bloomstep",
+  "version": "1.0.0",
+  "description": "Step Garden - a wellness app where walking and drinking water grows your virtual garden",
+  "private": true,
+  "scripts": {
+    "dev": "vite",
+    "build": "vite build",
+    "preview": "vite preview"
+  },
+  "dependencies": {
+    "react": "^18.2.0",
+    "react-dom": "^18.2.0"
+  },
+  "devDependencies": {
+    "@vitejs/plugin-react": "^4.2.1",
+    "vite": "^5.0.8"
+  }
+}
