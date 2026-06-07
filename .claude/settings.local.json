@@ -1,0 +1,15 @@
+{
+  "permissions": {
+    "allow": [
+      "Bash(xcode-select -p)",
+      "Bash(ls /Applications/ | grep -i xcode)",
+      "Bash(brew --version)",
+      "Bash(chmod +x /Users/hildafranco/Desktop/projects/flourish/Flourish-iOS/setup.sh)",
+      "Bash(open -a Xcode)",
+      "Bash(git add *)",
+      "Bash(git commit -m ' *)",
+      "Bash(git config *)",
+      "Bash(gh auth *)"
+    ]
+  }
+}
