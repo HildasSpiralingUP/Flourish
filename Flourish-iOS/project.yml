@@ -1,0 +1,23 @@
+name: Flourish
+options:
+  bundleIdPrefix: com.stepgarden
+  deploymentTarget:
+    iOS: "17.0"
+  xcodeVersion: "15"
+
+targets:
+  Flourish:
+    type: application
+    platform: iOS
+    sources:
+      - Flourish
+    info:
+      path: Flourish/Resources/Info.plist
+    settings:
+      base:
+        PRODUCT_BUNDLE_IDENTIFIER: com.stepgarden.flourish
+        SWIFT_VERSION: "5.9"
+        INFOPLIST_FILE: Flourish/Resources/Info.plist
+        DEVELOPMENT_TEAM: ""
+    capabilities:
+      healthKit: {}
